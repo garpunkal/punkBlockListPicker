@@ -1,4 +1,4 @@
-# Content With Aside
+# BlockListPicker
 
 An app_plugin for Umbraco that allows you to view a Block List Picker with Layouts and Components split
 
