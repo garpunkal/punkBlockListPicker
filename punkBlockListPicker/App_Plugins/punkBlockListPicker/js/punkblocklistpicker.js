@@ -6,7 +6,7 @@
                     return {
                         'request': function (request) {
                             if (request.url.toLowerCase().indexOf('views/common/infiniteeditors/blockpicker/blockpicker.html') !== -1)
-                                request.url = '/app_plugins/tweaks/views/punkblocklistpicker.html';
+                                request.url = '/app_plugins/punkblocklistpicker/views/punkblocklistpicker.html';
 
                             return request || $q.when(request);
                         }
