@@ -7,7 +7,7 @@
 		<PackageId>punkBlockListPicker</PackageId>
 		<Title>punkBlockListPicker</Title>
 		<Description>An app_plugin for Umbraco that allows you to view a Block List Picker with Layouts.</Description>
-		<PackageTags>umbraco plugin package</PackageTags>
+		<PackageTags>umbraco-marketplace</PackageTags>
 		<RootNamespace>punkBlockListPicker</RootNamespace>
 		<Authors>Gareth Wright</Authors>
 		<PackageProjectUrl>https://github.com/garpunkal/punkBlockListPicker</PackageProjectUrl>
