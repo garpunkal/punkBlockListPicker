@@ -14,4 +14,4 @@ https://www.nuget.org/packages/punkBlockListPicker/
 
 ## Compatibility
 
-- Umbraco 10 with Block List Editor.
+- Umbraco 10+ with Block List Editor.
