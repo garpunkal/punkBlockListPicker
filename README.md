@@ -1,6 +1,8 @@
-# BlockListPicker
+# punkBlockListPicker
 
-An app_plugin for Umbraco that allows you to view a Block List Picker with layouts and components split into sections
+[![NuGet release](https://img.shields.io/nuget/v/punkBlockListPicker.svg)](https://www.nuget.org/packages/punkBlockListPicker/)
+
+A package for Umbraco that allows you to view a Block List Picker with layouts and components split into sections
 
 ## Usage 
 
@@ -14,4 +16,4 @@ https://www.nuget.org/packages/punkBlockListPicker/
 
 ## Compatibility
 
-- Umbraco 10+ with Block List Editor.
+- Umbraco 10+

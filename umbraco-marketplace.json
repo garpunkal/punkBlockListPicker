@@ -1,5 +1,16 @@
 {
+  "Title": "punkBlockListPicker",
+  "Description": "A package for Umbraco that allows you to view a Block List Picker with layouts and components split into sections",
   "Category": "Editor Tools",
+  "Tags": [ "Block List" ],
   "LicenseTypes": [ "Free" ],
-  "PackageType": "Package"
+  "PackageType": "Package", 
+  "AuthorDetails": {
+    "Name": "Gareth Wright",
+    "Url": "https://garpunkal.dev",
+    "ImageUrl": "https://github.com/garpunkal.png",
+    "SyncContributorsFromRepository": true
+  },
+  "DocumentationUrl": "https://github.com/garpunkal/punkBlockListPicker",
+  "IssueTrackerUrl": "https://github.com/garpunkal/punkBlockListPicker/issues"  
 }
