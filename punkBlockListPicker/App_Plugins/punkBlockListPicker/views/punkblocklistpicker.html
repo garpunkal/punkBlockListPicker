@@ -25,8 +25,8 @@
                     </umb-search-filter>
                 </div>                     
                              
-                <div ng-if="vm.filteredItems.length > 0 && (vm.filteredItems | filter:{blockConfigModel:{label:'layout_'}}).length > 0">
-                    <h5 class="">Layouts</h5>
+                <div ng-if="vm.filteredItems.length > 0 && (vm.filteredItems | filter:{blockConfigModel:{label:'layout_'}}).length > 0" class="punk-blocklist-layouts">
+                    <h4>Layouts</h4>
                     <div class="umb-block-card-grid">
                         <umb-block-card class="umb-outline"
                                         ng-repeat="block in (vm.filteredItems | filter:{blockConfigModel:{label:'layout_'}})"
@@ -38,9 +38,9 @@
                 </div>
 
 
-                <div ng-if="vm.filteredItems.length > 0 && (vm.filteredItems | filter:{blockConfigModel:{label:'!layout_'}}).length > 0">
+                <div ng-if="vm.filteredItems.length > 0 && (vm.filteredItems | filter:{blockConfigModel:{label:'!layout_'}}).length > 0"  class="punk-blocklist-components">
 
-                    <h5 class="">Components</h5>
+                    <h4 >Components</h4>
                     <div class="umb-block-card-grid">
                         <umb-block-card class="umb-outline"
                                         ng-repeat="block in (vm.filteredItems | filter:{blockConfigModel:{label: '!layout_'}})"
@@ -53,7 +53,7 @@
                 </div>
 
                 <div ng-repeat="blockGroup in model.blockGroups" ng-if="vm.filteredItems.length > 0">
-                    <h5>{{blockGroup.name}}</h5>
+                    <h4>{{blockGroup.name}}</h4>
 
                     <div class="umb-block-card-grid">
 
